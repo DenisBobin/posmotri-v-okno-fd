@@ -178,9 +178,9 @@ ol {
 }
 
 .search-form__label-text:hover {
+  text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 3px;
-  text-decoration: underline;
   cursor:pointer;
 }
 
@@ -294,12 +294,12 @@ ol {
 }
 
 .content__video-card-title {
+  padding-bottom: 3px;
   overflow: hidden;
   color: #fff;
   font-family: "Oswald", "Arial Narrow", sans-serif;
   font-weight: 700;
   font-size: 30px;
-  padding-bottom: 3px;
   line-height: 100%;
   text-transform: uppercase;
   text-overflow: ellipsis;
@@ -308,22 +308,22 @@ ol {
 
 .content__video-card-description {
   display: -webkit-box;
+  padding-bottom: 3px;
   overflow: hidden;               /* Обязательно: прячем лишнее */
   color: #fff;
   font-family: "Fira Sans Condensed", "Arial Narrow", sans-serif;
   font-weight: 100;
   font-size: 18px;
   line-height: 16px;
-  padding-bottom: 3px;
   -webkit-box-orient: vertical;   /* Обязательно: направление бокса */
   line-clamp: 4;
   -webkit-line-clamp: 4;          /* Количество строк, которые нужно оставить */
 }
 
-.content__video-card:hover { 
+.content__video-card:hover {
+  text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 3px;
-  text-decoration: underline;
   cursor:pointer;
 }
 
