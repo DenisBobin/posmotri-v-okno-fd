@@ -91,9 +91,9 @@ ol {
 }
 
 .search-form {
-  display: flex;
+  display: grid;
+  grid-template-columns: 225px 212px 194px;
   justify-content: space-between;
-  align-items: flex-start;
   height:54px;
 }
 
@@ -116,7 +116,9 @@ ol {
 
 .search-form__label {
   display: flex;
-    gap:5px;
+  justify-content: center;
+  align-items: center;
+  gap:5px;
 }
 
 .search-form__checkbox-list {
@@ -177,7 +179,7 @@ ol {
   padding: 1px;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 3px;
