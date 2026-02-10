@@ -356,7 +356,7 @@ ol {
 
 .button {
   border: 1px solid #fff;
-  padding: 6px 6px; 
+  padding: 6px 6px;
   outline:none;
   color: #fff;
   font-family:  var(--font-family-button);
@@ -379,6 +379,6 @@ ol {
   outline-offset: -3px;
 }
 
-.more-button{
+.more-button {
 margin:1px;
 }
