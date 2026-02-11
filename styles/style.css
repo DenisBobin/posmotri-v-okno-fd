@@ -238,7 +238,6 @@ ol {
   display: flex;
   flex-direction: column;
   row-gap:30px;
-  height: 345px;
   margin: 0;
   overflow-x: auto;
   overflow-y: auto;
